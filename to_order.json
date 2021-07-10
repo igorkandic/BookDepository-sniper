@@ -1,0 +1,52 @@
+{
+  "volumes": [
+    {
+      "name": "Chainsaw Man, Vol. 3",
+      "price": "11,00",
+      "availability": "Add to basket",
+      "bought": false
+    },
+    {
+      "name": "Chainsaw Man, Vol. 4",
+      "price": "11,00",
+      "availability": "Add to basket",
+      "bought": false
+    },
+    {
+      "name": "Chainsaw Man, Vol. 5",
+      "price": "11,00",
+      "availability": "Add to basket",
+      "bought": false
+    },
+    {
+      "name": "Chainsaw Man, Vol. 6",
+      "price": "11,00",
+      "availability": "Add to basket",
+      "bought": false
+    },
+    {
+      "name": "Chainsaw Man, Vol. 7",
+      "price": "11,00",
+      "availability": "Add to basket",
+      "bought": false
+    },
+    {
+      "name": "Chainsaw Man, Vol. 8",
+      "price": "11,00",
+      "availability": "Add to basket",
+      "bought": false
+    },
+    {
+      "name": "Chainsaw Man, Vol. 9",
+      "price": "11,00",
+      "availability": "Add to basket",
+      "bought": false
+    },
+    {
+      "name": "Chainsaw Man, Vol. 10",
+      "price": "11,00",
+      "availability": "Add to basket",
+      "bought": false
+    }
+  ]
+}

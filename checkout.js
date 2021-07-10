@@ -4,7 +4,7 @@ const fs = require("fs");
 var info = JSON.parse(fs.readFileSync("info.json"));
 
 async function order_manga(ime, cena_mange, url) {
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto(url, {
     waitUntil: "networkidle2",
@@ -67,7 +67,7 @@ async function order_manga(ime, cena_mange, url) {
   }
 
   //klikni dugme da kupi
-  //page.click('body > div.page-slide > div.content-wrap > div.main-content.checkout-page.payment-step > div > form > div.clearfix > button');
+  page.click('body > div.page-slide > div.content-wrap > div.main-content.checkout-page.payment-step > div > form > div.clearfix > button');
 
   browser.close();
   return "Order successful";
